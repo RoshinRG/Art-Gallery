@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lumina Gallery — Where contemporary art meets extraordinary experience. Discover curated artworks, featured artists, and exclusive exhibitions.">
+  <title>Lumina Gallery — Contemporary Art</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">LUMINA<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="exhibition.html">Exhibitions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html" class="nav-cta">Explore Art</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="images/hero-bg.png" alt="Lumina Gallery interior">
+    </div>
+    <div class="container">
+      <div class="hero-content fade-in">
+        <p class="eyebrow">Contemporary Art Gallery</p>
+        <h1 class="hero-h1">Art That<br><em>Moves</em> the Soul</h1>
+        <p class="hero-desc">Discover a curated universe of contemporary masterpieces — paintings, sculptures, and digital art from the world's most visionary creators.</p>
+        <div class="hero-actions">
+          <a href="gallery.html" class="btn btn-gold">
+            <span>View Collection</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="exhibition.html" class="btn btn-outline">Upcoming Exhibitions</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num counter" data-target="450" data-suffix="+">0</div>
+            <div class="stat-label">Artworks</div>
+          </div>
+          <div>
+            <div class="stat-num counter" data-target="80" data-suffix="+">0</div>
+            <div class="stat-label">Artists</div>
+          </div>
+          <div>
+            <div class="stat-num counter" data-target="12">0</div>
+            <div class="stat-label">Exhibitions</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">Scroll</div>
+  </section>
+
+  <!-- FEATURED STRIP -->
+  <div class="featured-strip">
+    <div class="strip-inner">
+      <div class="strip-item"><span class="dot"></span>Abstract Expressionism</div>
+      <div class="strip-item"><span class="dot"></span>Contemporary Sculpture</div>
+      <div class="strip-item"><span class="dot"></span>Digital Art</div>
+      <div class="strip-item"><span class="dot"></span>Impressionism</div>
+      <div class="strip-item"><span class="dot"></span>Surrealism</div>
+      <div class="strip-item"><span class="dot"></span>Modern Photography</div>
+      <div class="strip-item"><span class="dot"></span>Mixed Media</div>
+      <div class="strip-item"><span class="dot"></span>Abstract Expressionism</div>
+      <div class="strip-item"><span class="dot"></span>Contemporary Sculpture</div>
+      <div class="strip-item"><span class="dot"></span>Digital Art</div>
+      <div class="strip-item"><span class="dot"></span>Impressionism</div>
+      <div class="strip-item"><span class="dot"></span>Surrealism</div>
+      <div class="strip-item"><span class="dot"></span>Modern Photography</div>
+      <div class="strip-item"><span class="dot"></span>Mixed Media</div>
+    </div>
+  </div>
+
+  <!-- FEATURED ARTWORKS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head flex-between section-head-row">
+        <div>
+          <p class="section-label fade-in">Featured Collection</p>
+          <h2 class="section-title fade-in fade-in-delay-1">Curated Masterpieces</h2>
+        </div>
+        <a href="gallery.html" class="btn btn-outline fade-in">View All Works</a>
+      </div>
+      <div class="artwork-grid">
+        <!-- Card 1 -->
+        <div class="card artwork-card fade-in"
+          data-modal data-img-src="images/art1.png"
+          data-title="Echoes of Eternity" data-artist="Isabelle Moreau"
+          data-medium="Oil on Canvas" data-year="2024"
+          data-desc="A visceral exploration of emotional memory through deep, swirling purples and golden undertones, evoking the passage of time and the resonance of lived experience."
+          data-price="$12,400">
+          <div class="img-wrap img-wrap--tall">
+            <img src="images/art1.png" alt="Echoes of Eternity">
+            <div class="artwork-badge">Featured</div>
+            <div class="overlay">
+              <p class="overlay-hint">Click to learn more →</p>
+            </div>
+          </div>
+          <div class="card-meta">
+            <h3>Echoes of Eternity</h3>
+            <p>Isabelle Moreau · Oil on Canvas</p>
+            <p class="price">$12,400</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card artwork-card fade-in fade-in-delay-1"
+          data-modal data-img-src="images/art2.png"
+          data-title="Fracture Point" data-artist="Marco DeLuca"
+          data-medium="Acrylic on Panel" data-year="2023"
+          data-desc="Bold geometric forces collide in deep crimson and burnt orange — a meditation on conflict, tension, and the fragile boundary between order and chaos."
+          data-price="$8,900">
+          <div class="img-wrap img-wrap--square">
+            <img src="images/art2.png" alt="Fracture Point">
+            <div class="overlay">
+              <p class="overlay-hint">Click to learn more →</p>
+            </div>
+          </div>
+          <div class="card-meta">
+            <h3>Fracture Point</h3>
+            <p>Marco DeLuca · Acrylic on Panel</p>
+            <p class="price">$8,900</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card artwork-card fade-in fade-in-delay-2"
+          data-modal data-img-src="images/art3.png"
+          data-title="The Drifting Isle" data-artist="Yuki Tanaka"
+          data-medium="Digital Painting" data-year="2024"
+          data-desc="Mystical floating worlds cloaked in teal fog and violet light — a dreamlike vision of places that exist only at the edge of sleep and imagination."
+          data-price="$6,200">
+          <div class="img-wrap img-wrap--wide">
+            <img src="images/art3.png" alt="The Drifting Isle">
+            <div class="artwork-badge artwork-badge--accent">New</div>
+            <div class="overlay">
+              <p class="overlay-hint">Click to learn more →</p>
+            </div>
+          </div>
+          <div class="card-meta">
+            <h3>The Drifting Isle</h3>
+            <p>Yuki Tanaka · Digital Painting</p>
+            <p class="price">$6,200</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <div class="quote-block">
+    <div class="container">
+      <div class="gold-line center fade-in"></div>
+      <blockquote class="fade-in fade-in-delay-1">
+        "Art is not what you see, but what you make others see."
+      </blockquote>
+      <cite class="fade-in fade-in-delay-2">— Edgar Degas</cite>
+      <div class="gold-line center gold-line--top fade-in fade-in-delay-3"></div>
+    </div>
+  </div>
+
+  <!-- FEATURED ARTISTS PREVIEW -->
+  <section class="section artists-preview-section">
+    <div class="container">
+      <div class="section-head text-center">
+        <p class="section-label fade-in">Our Talent</p>
+        <h2 class="section-title fade-in fade-in-delay-1">Featured Artists</h2>
+        <p class="section-subtitle section-subtitle--center fade-in fade-in-delay-2">Visionaries redefining the language of contemporary art</p>
+      </div>
+      <div class="grid-2 artists-grid-wrap">
+        <div class="card artist-card fade-in">
+          <div class="avatar"><img src="images/artist1.png" alt="Isabelle Moreau"></div>
+          <h3>Isabelle Moreau</h3>
+          <p class="specialty">Abstract · Expressionism</p>
+          <p>Parisian-born painter whose work explores the psyche through layered oils and raw emotion.</p>
+          <div class="artist-social">
+            <a href="#" aria-label="Instagram">𝓘</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="Website">⊹</a>
+          </div>
+        </div>
+        <div class="card artist-card fade-in fade-in-delay-1">
+          <div class="avatar"><img src="images/artist2.png" alt="Marco DeLuca"></div>
+          <h3>Marco DeLuca</h3>
+          <p class="specialty">Geometric · Contemporary</p>
+          <p>Roman architect-turned-painter whose canvases dissect space, tension, and structural beauty.</p>
+          <div class="artist-social">
+            <a href="#" aria-label="Instagram">𝓘</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="Website">⊹</a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4 fade-in">
+        <a href="artists.html" class="btn btn-outline">Meet All Artists</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPCOMING EXHIBITION BANNER -->
+  <section class="section">
+    <div class="container">
+      <div class="glass exhibition-glass">
+        <div class="exhibition-glow-orb"></div>
+        <div class="grid-2 fade-in exhibition-grid">
+          <div>
+            <p class="section-label">Coming Soon</p>
+            <h2 class="exhibition-title">Into the Void:<br>Art &amp; the Infinite</h2>
+            <p class="exhibition-desc">An immersive group exhibition exploring themes of infinity, consciousness, and the boundless nature of human creativity. Opening April 5, 2026.</p>
+            <div class="exhibition-stats">
+              <div>
+                <div class="ex-stat-num">Apr 5</div>
+                <div class="ex-stat-label">Opening Night</div>
+              </div>
+              <div>
+                <div class="ex-stat-num">18</div>
+                <div class="ex-stat-label">Artists</div>
+              </div>
+              <div>
+                <div class="ex-stat-num">6 Weeks</div>
+                <div class="ex-stat-label">Duration</div>
+              </div>
+            </div>
+            <a href="exhibition.html" class="btn btn-gold mt-4">Reserve Your Spot</a>
+          </div>
+          <div class="exhibition-img-wrap">
+            <img src="images/exhibition-bg.png" alt="Into the Void Exhibition">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section">
+    <div class="container text-center">
+      <p class="section-label fade-in">Stay Connected</p>
+      <h2 class="section-title newsletter-title fade-in fade-in-delay-1">Never Miss a Masterpiece</h2>
+      <p class="section-subtitle newsletter-subtitle fade-in fade-in-delay-2">Receive invitations, artist spotlights, and first-access to new works.</p>
+      <form class="newsletter-form newsletter-form-wrap fade-in fade-in-delay-3">
+        <input class="newsletter-input" type="email" placeholder="your@email.com" required>
+        <button class="btn btn-gold" type="submit">Subscribe</button>
+      </form>
+      <p class="nl-success">✓ You're on the list! Welcome to Lumina.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">LUMINA<span>.</span></div>
+          <p>A sanctuary for contemporary art and the human spirit. Located in the heart of the cultural district.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">𝓘</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="Facebook">𝐟</a>
+            <a href="#" aria-label="Pinterest">𝐏</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Gallery</h4>
+          <ul>
+            <li><a href="gallery.html">All Works</a></li>
+            <li><a href="gallery.html">Paintings</a></li>
+            <li><a href="gallery.html">Sculpture</a></li>
+            <li><a href="gallery.html">Digital Art</a></li>
+            <li><a href="gallery.html">Photography</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Discover</h4>
+          <ul>
+            <li><a href="artists.html">Artists</a></li>
+            <li><a href="exhibition.html">Exhibitions</a></li>
+            <li><a href="#">Art Fairs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Opening Hours</a></li>
+            <li><a href="#">Commissions</a></li>
+            <li><a href="#">Corporate</a></li>
+            <li><a href="#">Shipping &amp; Returns</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Lumina Gallery. All rights reserved.</span>
+        <span>Crafted with passion for art</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="artModal">
+    <div class="modal-box">
+      <div class="modal-img">
+      <img src="images/art1.png" alt="Selected artwork" id="modalImg">
+      </div>
+      <div class="modal-body">
+        <button class="modal-close" aria-label="Close" type="button">✕</button>
+        <p class="section-label modal-section-label">Original Artwork</p>
+        <h2 class="modal-title modal-title-text">Artwork Title</h2>
+        <div class="gold-line"></div>
+        <div class="modal-meta-grid">
+          <div>
+            <p class="modal-meta-label">Artist</p>
+            <p class="modal-artist modal-meta-value"></p>
+          </div>
+          <div>
+            <p class="modal-meta-label">Year</p>
+            <p class="modal-year modal-meta-value"></p>
+          </div>
+          <div>
+            <p class="modal-meta-label">Medium</p>
+            <p class="modal-medium modal-meta-value"></p>
+          </div>
+          <div>
+            <p class="modal-meta-label">Price</p>
+            <p class="modal-price modal-price-value"></p>
+          </div>
+        </div>
+        <p class="modal-desc modal-desc-text"></p>
+        <div class="modal-actions">
+          <a href="contact.html" class="btn btn-gold">Inquire to Purchase</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

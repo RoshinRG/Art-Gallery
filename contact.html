@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Lumina Gallery — inquire about artworks, commissions, exhibitions, and membership.">
+  <title>Contact — Lumina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">LUMINA<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="exhibition.html">Exhibitions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html" class="nav-cta">Explore Art</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu" type="button"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="container">
+      <p class="section-label fade-in">We'd Love to Hear From You</p>
+      <h1 class="section-title fade-in fade-in-delay-1">Get in Touch</h1>
+      <p class="section-subtitle section-subtitle--center fade-in fade-in-delay-2">Whether you're a collector, an artist, or simply passionate about art — our doors are open.</p>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section class="section contact-section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- FORM -->
+        <div class="fade-in">
+          <p class="section-label">Send a Message</p>
+          <h2 class="section-title contact-title">How Can We Help?</h2>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Isabella" required>
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Moreau" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="your@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject">
+                <option value="">Select a topic…</option>
+                <option>Artwork Inquiry</option>
+                <option>Commission Request</option>
+                <option>Exhibition &amp; Events</option>
+                <option>Artist Submission</option>
+                <option>Membership</option>
+                <option>General Enquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell us about what you're looking for…" required></textarea>
+            </div>
+            <button class="btn btn-gold submit-btn-full" type="submit" id="submitBtn">Send Message</button>
+            <div class="success-msg" id="successMsg">✓ Your message has been sent! We'll be in touch within 1–2 business days.</div>
+          </form>
+        </div>
+
+        <!-- INFO PANEL -->
+        <div class="contact-sidebar fade-in fade-in-delay-1">
+          <!-- Contact Info -->
+          <div class="contact-panel">
+            <h2>Visit the Gallery</h2>
+            <p>Come and experience art in person. Our team is here to guide you through the collection.</p>
+            <div class="info-box info-box--flush">
+              <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div>
+                  <div class="info-label">Address</div>
+                  <div class="info-value">12 Meridian Place, Arts Quarter<br>London, EC2A 4NE</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">📞</div>
+                <div>
+                  <div class="info-label">Phone</div>
+                  <div class="info-value">+44 (0)20 7123 4567</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">✉️</div>
+                <div>
+                  <div class="info-label">Email</div>
+                  <div class="info-value">hello@luminagallery.com</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">🕐</div>
+                <div>
+                  <div class="info-label">Hours</div>
+                  <div class="info-value">Tue–Fri: 10–19 · Sat: 10–21<br>Sun: 12–18 · Mon: Closed</div>
+                </div>
+              </div>
+            </div>
+            <div class="map-placeholder">🗺️</div>
+          </div>
+
+          <!-- Social -->
+          <div class="contact-panel">
+            <h2>Follow Along</h2>
+            <p>Stay connected with artist stories, new arrivals, and exclusive previews.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram">𝓘</a>
+              <a href="#" aria-label="Twitter">𝕏</a>
+              <a href="#" aria-label="Facebook">𝐟</a>
+              <a href="#" aria-label="Pinterest">𝐏</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq-section">
+    <div class="container">
+      <div class="section-head text-center">
+        <p class="section-label fade-in">Common Questions</p>
+        <h2 class="section-title fade-in fade-in-delay-1">FAQ</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item fade-in">
+          <summary>How do I purchase an artwork?</summary>
+          <p>Click "Inquire to Purchase" on any artwork in our gallery, or send us a message via the contact form above. Our advisors will guide you through pricing, shipping, and payment options.</p>
+        </details>
+        <details class="faq-item fade-in fade-in-delay-1">
+          <summary>Do you offer worldwide shipping?</summary>
+          <p>Yes — we ship to over 60 countries. All works are professionally packaged and fully insured in transit. Shipping costs and timelines are confirmed at the time of purchase.</p>
+        </details>
+        <details class="faq-item fade-in">
+          <summary>Can I commission a bespoke artwork?</summary>
+          <p>Absolutely. Select "Commission Request" in the contact form and describe your vision, budget, and timeline. We'll match you with an artist from our roster who best fits your brief.</p>
+        </details>
+        <details class="faq-item fade-in fade-in-delay-1">
+          <summary>How do I apply to exhibit my work?</summary>
+          <p>We review artist submissions on a rolling basis. Send us your portfolio — 10–15 images, artist statement, and CV — using the contact form with subject "Artist Submission".</p>
+        </details>
+        <details class="faq-item fade-in">
+          <summary>What are the benefits of Lumina Membership?</summary>
+          <p>Members enjoy free unlimited gallery access, invitations to private openings and previews, discounts on art purchases, and a quarterly curator's letter with curated recommendations.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">LUMINA<span>.</span></div>
+          <p>A sanctuary for contemporary art and the human spirit.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">𝓘</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="Facebook">𝐟</a>
+            <a href="#" aria-label="Pinterest">𝐏</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Gallery</h4>
+          <ul>
+            <li><a href="gallery.html">All Works</a></li>
+            <li><a href="gallery.html">Paintings</a></li>
+            <li><a href="gallery.html">Sculpture</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Discover</h4>
+          <ul>
+            <li><a href="artists.html">Artists</a></li>
+            <li><a href="exhibition.html">Exhibitions</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Hours</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Lumina Gallery.</span>
+        <span>Crafted with passion for art</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    const form = document.getElementById('contactForm');
+    const successMsg = document.getElementById('successMsg');
+    const submitBtn = document.getElementById('submitBtn');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        submitBtn.textContent = 'Sending…';
+        submitBtn.disabled = true;
+        setTimeout(function() {
+          successMsg.style.display = 'block';
+          submitBtn.textContent = 'Message Sent ✓';
+          submitBtn.style.background = 'linear-gradient(135deg, #3d9e6e, #5dbe8e)';
+          form.reset();
+        }, 1500);
+      });
+    }
+  </script>
+</body>
+</html>
